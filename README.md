@@ -19,7 +19,6 @@ This project deploys a 3-replica Nginx web server on a K3s cluster, serving file
 Run:
 
 ```bash
-sudo chmod +x deploy.sh
 ./deploy.sh
 ```
 
@@ -36,7 +35,6 @@ Once running, visit: [http://localhost:31234](http://localhost:31234)
 ## Cleanup
 
 ```bash
-sudo chmod +x delete.sh
 ./delete.sh
 ```
 
