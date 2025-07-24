@@ -1,4 +1,4 @@
-# K3s Nginx Shared Folder Deployment (NFS-backed)
+# K3s Nginx Shared Folder Deployment with NFS
 
 This project deploys a 3-replica Nginx web server on a K3s cluster, serving files from a shared folder mounted via NFS (backed by a PersistentVolume and PersistentVolumeClaim).
 
