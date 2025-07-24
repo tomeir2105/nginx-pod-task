@@ -24,4 +24,3 @@ The task targets are:
 - `ConfigMap` to override Nginx to use port `1234` and show `/files`
 - `Deployment` of 3 Nginx replicas
 - `Service` with `NodePort` (`31234`)
-
