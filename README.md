@@ -2,6 +2,14 @@
 
 This project deploys a 3-replica Nginx web server in K3s, serving files from a hostPath PVC.
 
+## What i learned in this task  
+- using pv and pvc for creating a shared folder in the pod (PersistentVolume and PersistentVolumeClaim)
+- how to use configMap
+- what are replicas and how to use them
+- how to expose a port from the pod to the world
+- how to apply the pod yaml with multi configurations and wait for the pods to load
+- using rollout restart (no need to delete pods...)
+  
 ## Setup
 
 Run:
